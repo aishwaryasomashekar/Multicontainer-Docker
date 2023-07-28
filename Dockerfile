@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Copy your static files or website content to the Nginx document root inside the container
-COPY index.html
+COPY index.html docker.html
 
 # Expose Nginx's default port
 EXPOSE 80
